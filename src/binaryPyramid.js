@@ -1,6 +1,18 @@
 function binaryPyramid(m = 0, n = 0 ) {
-  if (m === 1 && n === 6) return 101001101;
-  return 1111010;
+
+
+
+  let result = 0;
+
+  for ( let i = m; i <= n; i++){
+    const binaryNumber = parseInt(i.toString(2));
+    result += binaryNumber;
+    console.log('I: ---> ',i)
+    console.log('binaryNumber: ---> ',binaryNumber)
+
+  }
+
+  return result.toString(2);
 }
 
 module.exports = binaryPyramid;
