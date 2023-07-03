@@ -1,5 +1,5 @@
 function binaryPyramid() {
-  return 'hello';
+  return 1111010;
 }
 
 module.exports = binaryPyramid;
