@@ -26,7 +26,7 @@ because:
 
 ## Plans
 
-- ⚠ '(1,4) should return 1111010'
-- ⚠ '(1,6) should return 101001101'
-- ⚠ '(6,20) should return 1110010110100011'
-- ⚠ '(21,60) should return 1100000100010001010100'
+- ✅ '(1,4) should return 1111010'
+- ✅ '(1,6) should return 101001101'
+- ✅ '(6,20) should return 1110010110100011'
+- ✅ '(21,60) should return 1100000100010001010100'

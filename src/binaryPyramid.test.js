@@ -13,4 +13,8 @@ describe('binaryPyramid', () => {
     expect(binaryPyramid(6,20)).toBe("1110010110100011");
   });
 
+  it('(21,60) should return 1100000100010001010100', () => {
+    expect(binaryPyramid(21,60)).toBe("1100000100010001010100");
+  });
+
 });
